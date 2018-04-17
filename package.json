@@ -1,0 +1,17 @@
+{
+  "name": "Liri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Liri.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "inquirer": "^5.2.0",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.85.0",
+    "spotify-api": "0.0.0",
+    "twitter": "^1.7.1"
+  }
+}
