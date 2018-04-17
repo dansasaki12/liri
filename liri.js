@@ -43,7 +43,7 @@ switch(command){
   break;
 
   case "do-what-it-says":
-    doThing();
+    doIt();
   break;
 
   default:
@@ -119,7 +119,7 @@ function omdbData(movie){
 
 }
 
-function doThing(){
+function doIt(){
   fs.readFile('random.txt', "utf8", function(error, data){
     var txt = data.split(',');
 
