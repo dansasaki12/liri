@@ -110,11 +110,6 @@ function omdbData(movie){
     } else{
       console.log('Error occurred.')
     }
-    if(movie === "Mr. Nobody"){
-      console.log("-----------------------");
-      console.log("If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/");
-
-    }
   });
 
 }
