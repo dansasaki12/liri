@@ -1,11 +1,11 @@
 require("dotenv").config();
 const keys = require("./keys.js");
 var Twitter = require('twitter');
+var request = require('request');
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
 var twitter = new Twitter(keys.twitter);
-// var params = {screen_name: 'blahtwittter123'};
-// var twitter = new Twitter(keys.twitterKeys);
+
 var nodeArgv = process.argv;
 var command = process.argv[2];
 //movie or song
