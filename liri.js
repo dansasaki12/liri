@@ -43,7 +43,7 @@ switch(command){
   break;
 
   case "do-what-it-says":
-    doIt();
+    doThing();
   break;
 
   default:
@@ -110,11 +110,17 @@ function omdbData(movie){
     } else{
       console.log('Error occurred.')
     }
+    if(movie === "Mr. Nobody"){
+      console.log("-----------------------");
+      console.log("If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/");
+      console.log("It's on Netflix!");
+
+    }
   });
 
 }
 
-function doIt(){
+function doThing(){
   fs.readFile('random.txt', "utf8", function(error, data){
     var txt = data.split(',');
 
